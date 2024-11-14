@@ -7,11 +7,11 @@ const config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://https://zappadappa.github.io',
+  baseUrl: '/modularfictionwriting/', // Update to match the repo name
 
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'zappadappa',
+  projectName: 'modularfictionwriting',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
