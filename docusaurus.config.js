@@ -8,7 +8,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://zappadappa.github.io',
-  baseUrl: '/modularfictionwriting/', // Update to match the repo name
+  baseUrl: '/modularfictionwriting/',
 
   organizationName: 'zappadappa',
   projectName: 'modularfictionwriting',
@@ -46,9 +46,8 @@ const config = {
 
   themeConfig: {
     colorMode: {
-      defaultMode: 'light',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
+      defaultMode: 'dark', // Set dark mode as the default
+      disableSwitch: true,  // Disable the switch to ensure dark mode only
     },
     navbar: {
       title: 'My Site',
