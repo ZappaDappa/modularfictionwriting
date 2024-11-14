@@ -45,6 +45,11 @@ const config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     navbar: {
       title: 'My Site',
       logo: {
@@ -52,10 +57,10 @@ const config = {
         src: 'img/logo.svg',
       },
       items: [
-        { to: '/', label: 'Home', position: 'left' }, // Home link
-        { to: '/docs/about', label: 'About', position: 'left' }, // About link
-        { to: '/docs/contact', label: 'Contact', position: 'left' }, // Contact link
-        { to: '/blog', label: 'Blog', position: 'left' }, // Blog link if needed
+        { to: '/', label: 'Home', position: 'left' },
+        { to: '/docs/about', label: 'About', position: 'left' },
+        { to: '/docs/contact', label: 'Contact', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -63,9 +68,6 @@ const config = {
         },
       ],
     },
-
-  
-
     footer: {
       style: 'dark',
       links: [
