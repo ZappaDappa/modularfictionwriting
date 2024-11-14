@@ -17,6 +17,11 @@ jobs:
         with:
           node-version: 16
 
+      - name: Verify Node and Yarn versions
+        run: |
+          node -v
+          yarn -v
+
       - name: Install dependencies
         run: yarn install
 
